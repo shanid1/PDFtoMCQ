@@ -1,0 +1,28 @@
+.dropZone{
+    cursor: pointer;
+    border: dashed black 2px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80vw;
+    margin: 20px;
+    padding: 50px;
+    font-size: large;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgba(125, 65, 181, 0.63);
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.168);
+    transition: 0.2s ease;
+}
+.dropZone:hover{
+    padding: 46px;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.17);
+    
+}
+.dropZone span{
+    color: gray;
+}
+body{
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(29, 2, 54, 0.63);;
+}
